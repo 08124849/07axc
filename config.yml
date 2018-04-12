@@ -1,0 +1,38 @@
+app:
+  port: 3000
+
+jwt:
+  secretOrKey: 'Tol2sdfk99815L'
+  headerKey: 'X-Auth-Token'
+  algorithm: 'HS512'
+
+smtp:
+  host: 'smtp.gmail.com'
+  port: 465
+  secure: true
+  auth:
+    user: 'auliaxstudio@gmail.com'
+    pass: 'Anjingtanah123!@#'
+
+imap:
+  user: 'auliaxstudio@gmail.com'
+  password: 'Anjingtanah123!@#'
+  tls: true 
+  port: 993
+  host: 'imap.gmail.com'
+  inbox: 'INBOX'
+
+database:
+  crm:
+    host: 'localhost'
+    user: 'project'
+    password: 'project'
+    database: 'helpdesk_db'
+    port: 5432
+
+  mail_srv:
+    host: 'localhost'
+    user: 'project'
+    password: 'project'
+    database: 'mail_srv'
+    port: 5432

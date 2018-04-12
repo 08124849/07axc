@@ -1,0 +1,25 @@
+{
+  "name": "mail-srv",
+  "version": "0.0.1",
+  "description": "Mail Server",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "js-yaml": "^3.11.0",
+    "jsonwebtoken": "^8.2.0",
+    "mkdirp": "^0.5.1",
+    "ndmail": "^0.2.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "pg": "^7.4.1"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
