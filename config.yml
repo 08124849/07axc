@@ -11,12 +11,12 @@ smtp:
   port: 465
   secure: true
   auth:
-    user: 'auliaxstudio@gmail.com'
-    pass: 'Anjingtanah123!@#'
+    user: ''
+    pass: ''
 
 imap:
-  user: 'auliaxstudio@gmail.com'
-  password: 'Anjingtanah123!@#'
+  user: ''
+  password: ''
   tls: true 
   port: 993
   host: 'imap.gmail.com'
